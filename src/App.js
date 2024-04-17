@@ -17,16 +17,14 @@ const MainTitleText = styled.p`
 
 function App() {
   return (
-    <BrowserRouter> <MainTitleText>미니 블로그</MainTitleText> </BrowserRouter>
-    
-    // <BrowserRouter>
-    //   <MainTitleText>미니 블로그</MainTitleText>
-    //   <Routes>
-    //     <Route index element={<MainPage />} />
-    //     <Route path="post-write" element={<PostWritePage />} />
-    //     <Route path="post/:postId" element={<PostViewPage />} />
-    //   </Routes>
-    // </BrowserRouter>
+    <BrowserRouter>
+      <MainTitleText>미니 블로그</MainTitleText>
+      <Routes>
+        <Route index element={<MainPage />} />
+        <Route path="post-write" element={<PostWritePage />} />
+        <Route path="post/:postId" element={<PostViewPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
