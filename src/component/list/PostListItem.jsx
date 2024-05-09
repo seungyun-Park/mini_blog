@@ -1,3 +1,4 @@
+//PostListItem.jsx
 import React from "react";
 import styled from "styled-components";
 
@@ -12,7 +13,7 @@ const Wrapper = styled.div`
     border-radius: 8px;
     cursor: pointer;
     background: white;
-    :hover{
+    &:hover{
         background: lightgrey;
     }
 `;

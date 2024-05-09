@@ -1,3 +1,4 @@
+//PostList.jsx
 import React from "react";
 import styled from "styled-components";
 import PostListItem from "./PostListItem";
@@ -16,7 +17,7 @@ const Wrapper = styled.div`
 `;
 
 function PostList(props){
-    const {posts, onClickItem } = props;
+    const { posts, onClickItem } = props;
 
     return (
         <Wrapper>
